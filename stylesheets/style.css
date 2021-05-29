@@ -53,3 +53,38 @@ header {
     width: 100%;
     height: auto;
 }
+
+.featured-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-tea {
+    height: auto;
+    width: 1000px;
+    border: 2px solid red;
+}
+
+.featured-tea-img-container img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.test-container {
+    border: 2px solid red;
+    display: inline-flex;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    border: 2px solid red;
+}

@@ -58,6 +58,7 @@ header {
     display: flex;
     height: auto;
     width: 100%;
+    margin-top: 5%;
     justify-content: center;
 }
 
@@ -85,4 +86,47 @@ header {
 
 .caption {
     display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.locations {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../Resources/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-containers {
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.square {
+    height: 230px;
+    width: 230px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+}
+
+.location-tittle-container {
+    margin-bottom: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.footer {
+    margin-left: 20px;
+    text-align: left;
 }
